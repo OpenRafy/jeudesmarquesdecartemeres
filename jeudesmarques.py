@@ -93,7 +93,7 @@ while is_running:
             print(colored("Sale riche !!!! xD","yellow"))
 
         elif pc_fixe == "lenovo":
-            print(colored("Gangifié sur certains models hein thinkpad ;) mais sinon ca va ","red"))
+            print(colored("Parfait !!! ;) mais sinon ca va ","red"))
 
         elif pc_fixe == "packard bell":
             print(colored("PACKARD POUBELLE !!!!!!!!!!","red"))
@@ -136,6 +136,12 @@ while is_running:
 
         elif pc_portable in ["apple", "mac", "macbook"]:
             print(colored("Sale riche !!!! xD","yellow"))
+
+        elif pc_portable == "asus":
+            print(colored("ANUS TU VEUX DIRE !!!! xD bwahahahaha","red"))
+
+        elif pc_portable == "toshiba":
+            print(colored("toute ma vie !!!!","blue"))
 
     action = input("Appuie sur ''r'' pour recommencer où ''q'' pour quitter")
 
