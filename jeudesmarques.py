@@ -8,7 +8,9 @@ is_running = True
 colorama.init()
 while is_running:
 
-    print("Si ta carte mere pue ben tu le verra ''tu peux mettre une marque de pc'' ")
+    print(colored("Bienvenue sur le jeu des marques de cartes meres et pc potables ou fixes oem v1.1","red"))
+
+    print(colored("Si ta carte mere pue ben tu le verra,''tu peux mettre une marque de pc'' ","blue"))
 
     marque = input("Met ta marque de carte mere ou de ton pc : ").lower()
 
